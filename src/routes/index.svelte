@@ -1,10 +1,20 @@
 <script>
-	import indicateurs from '$lib/listing.js';
+	import {continents, indicateurs} from '$lib/listing.js';
 </script>
 
 
 <section>
-	[indicateurs]
+	<p> Continent </p>
+	<ul>
+	{#each continents as cont}
+		<div class="cont">{cont.nameC}</div>
+		{#each cont.countries as country}
+			<div class="card">{country.nameP}</div>
+		{/each}
+	{/each}
+	</ul>
+
+	
 	
 </section>
 
@@ -17,5 +27,20 @@
 		flex: 1;
 	}
 
+	p {
+		color:pink;
+
+	}
+	.cont{
+		color:blue;
+
+	}
+	.card {
+		border:solid 1px red;
+		width: 120%;
+		margin: 10px;
+		padding: 10px; 
+		color: green; 
+	}
 	
 </style>
