@@ -1,14 +1,14 @@
-const products = [
+const indicateurs = [
     {
-      name: "Chaussure trail",
-      price: 12,
-      quantity: 2,
+      continent: "Europe",
+      pays: "Espagne",
+      superficie: 504030,
     },
     {
-      name: "Chaussure trail",
-      price: 12,
-      quantity: 2,
+      continent: "Europe",
+      pays: "Italie",
+      superficie: 302073,
     }
 ];
 
-export default products;  // ajouter à un autre fichier
+export default indicateurs;  // ajouter à un autre fichier
