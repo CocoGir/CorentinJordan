@@ -2,9 +2,6 @@
 	import indicateurs from '$lib/listing.js';
 </script>
 
-<svelte:head>
-
-</svelte:head>
 
 <section>
 	[indicateurs]
