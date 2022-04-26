@@ -13,9 +13,6 @@
 		{/each}
 	{/each}
 	</ul>
-
-	
-	
 </section>
 
 <style>
@@ -29,18 +26,22 @@
 
 	p {
 		color:pink;
+		
 
 	}
 	.cont{
 		color:blue;
+		text-align : center;
 
 	}
 	.card {
 		border:solid 1px red;
-		width: 120%;
+		width: 75%;
 		margin: 10px;
 		padding: 10px; 
 		color: green; 
+		text-align : center;
+		background-color : lightgrey;
 	}
 	
 </style>
