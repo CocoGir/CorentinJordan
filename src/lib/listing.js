@@ -7,55 +7,26 @@ export const continents = [
 	{ nameC: 'Afrique', countries: [{ nameP: 'Kenya' }, { nameP: 'Bénin' }] }
 ];
 
-export const indicateurs = [
-	{
-		continent: 'Europe',
-		pays: 'Espagne',
-		superficie: 504030
-	},
-	{
-		continent: 'Europe',
-		pays: 'Italie',
-		superficie: 302073
-	},
-	{
-		continent: 'Asie',
-		pays: 'Chine',
-		superficie: 9597000
-	},
-	{
-		continent: 'Asie',
-		pays: 'Thailande',
-		superficie: 513120
-	},
-	{
-		continent: 'Amérique du Nord',
-		pays: 'Canada',
-		superficie: 9985000
-	},
-	{
-		continent: 'Amérique du Sud',
-		pays: 'Colombie',
-		superficie: 8516000
-	},
-	{
-		continent: 'Afrique',
-		pays: 'Bénin',
-		superficie: 116763
-	},
-	{
-		continent: 'Afrique',
-		pays: 'Kenya',
-		superficie: 580367
-	},
-	{
-		continent: 'Océanie',
-		pays: 'Nouvelle-Zélande',
-		superficie: 268021
-	},
-	{
-		continent: 'Océanie',
-		pays: 'Tanga',
-		superficie: 748
-	}
-];
+export const indicFra = [ {
+nameC: "France",
+langue: "Français",
+monnaie: "Euro",
+population: 67390000, 
+superficie: 543940,
+conduite: "droite",
+capitale: "Paris",
+villes: "Marseille, Lyon, Bordeaux, Toulouse"
+}]
+
+export const indicEsp = [ {
+	nameC: "Espagne",
+	langue: "Espagnol",
+	monnaie: "Euro",
+	population: 47350000, 
+	superficie: 505990,
+	conduite: "droite",
+	capitale: "Madrid",
+	villes: "Barcelone, Valence, Séville, Malaga"
+	}]
+
+;
